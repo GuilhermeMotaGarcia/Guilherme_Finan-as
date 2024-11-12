@@ -10,13 +10,18 @@
     <h1>Página de Finanças</h1>
     <form action="">
         <input type="text" id="valor">
-        <button>Depositar</button>
-        <button>Investir</button>
+        <button type="button" id="btn_depositar">Depositar</button>
+        <button type="button" id="btn_investir">Investir</button>
     </form>
+    <script src="script.js"></script>
 </body>
 </html><!--
 Source control...
 simbolo de mais (+) = prepara o arquivo;
 Mensagem(message) escreve oque você esta fazendo no momento, e clique em commit (commitar) repositório local;
 Se der erro, aperta ctlr + ''. ou terminal => git config user.email "emaildousuariogithub". e user.name
-Aparecerá Sync Changes "sincronizar atualizações" (mandar do repositório local para o usuário)-->
+Aparecerá Sync Changes "sincronizar atualizações" (mandar do repositório local para o usuário)
+
+
+precisa colocar button type="button", pois o botão está dentro do formulário e não vai funcionar no js. Não é 
+botão para enviar, mas só fazer alguma função-->
